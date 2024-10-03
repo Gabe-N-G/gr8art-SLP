@@ -29,16 +29,10 @@
     width: 12.5%; 
     height: 12.5%;
     background-color: grey;
-    color: white;
-    font-size: 10px;
-    font-weight: bold;
-    border: black;
-    border-style: dashed;
-    border-radius: 2px;
-
+    border: 2px dashed black;
   }
   
   .flex-item:hover {
-    background-color: #45a049;
+    background-color: limegreen;
   }
   
