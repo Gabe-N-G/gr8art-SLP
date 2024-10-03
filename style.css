@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    
+  }
+  
+  .flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5%; 
+    height: 12.5%;
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border: black;
+    border-style: dashed;
+    border-radius: 2px;
+
+  }
+  
+  .flex-item:hover {
+    background-color: #45a049;
+  }
+  
